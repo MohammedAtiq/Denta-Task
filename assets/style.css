@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hBox1,
+.hBox2,
+.hBox3 {
+  height: 25px;
+}
+
+.hBox1 {
+  background-color: #07a1ab;
+}
+.hBox2 {
+  background-color: #1982bb;
+}
+.hBox3 {
+  background-color: #06bc83;
+}
+
+.hBtn {
+  float: right;
+  display: block;
+  width: 346px;
+  margin: 0 -12px 0 0;
+  padding: 13px;
+  border: none;
+  background-color: #06bc83;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.hBtn:hover {
+  background-color: #05885f;
+}
+
+.logo {
+  margin: 0 0 0 20px;
+  max-width: 165px !important;
+}
+
+.hBgColor {
+  background-color: #ebebeb;
+}
+
+.hList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 8px 34px;
+  list-style: none;
+  font-size: 17px;
+  font-weight: 700;
+  color: #3e3e3e;
+  cursor: pointer;
+}
+
+.hList li:hover {
+  color: #4bb3d5;
+}
+
+.heroImg {
+  height: 500px !important;
+  width: 100%;
+}
+
+.hPhone {
+  margin: 15px 0 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #478eb3;
+}
+
+.hboxs {
+  margin-top: -115px !important;
+}
+
+.hBoxs1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroBox1,
+.heroBox2,
+.heroBox3 {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.heroBox1 {
+  background-color: #07a1ab;
+  opacity: 0.8;
+}
+.heroBox2 {
+  background-color: #1982bb;
+  opacity: 0.8;
+}
+.heroBox3 {
+  background-color: #06bc83;
+  opacity: 0.8;
+}
+
+.hBoxs span {
+  font-weight: 650;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: 600;
+  color: #0199c9;
+}
+
+.heading2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.Services {
+  background-image: url('../assets/images/bgClinic.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+.layer {
+  background-color: #0f5a7a;
+  opacity: 0.9;
+  width: 100%;
+  height: auto;
+  padding: 25px;
+}
+
+.serBox {
+  color: #fff;
+  background-color: #3a748f;
+  padding: 10px;
+  margin: 5px auto;
+}
+
+.bgGreen {
+  background-color: #06bc83;
+  color: #fff;
+}
+
+.greenBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cardborder1 {
+  border-top: 10px solid #60c3c9;
+}
+.cardborder2 {
+  border-top: 10px solid #6dafd2;
+}
+.cardborder3 {
+  border-top: 10px solid #60d4b1;
+}
+
+.bookOnline {
+  background-color: #ebebeb;
+}
+
+.arrow {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+ 
+  .heroBox1,
+.heroBox2,
+.heroBox3 {
+  height: 100px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: 500;
+}
+}
+
+@media only screen and (max-width: 630px) {
+  .hList {
+    flex-direction: column !important;
+  }
+
+  .hList li {
+    margin: 5px 0;
+  }
+
+  .hBtn {
+    float: right;
+    display: block;
+    width: 246px;
+    margin: 0 -12px 0 0;
+    padding: 5px;
+    border: none;
+    background-color: #06bc83;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .headerlogo,
+  .headText,
+  .hederBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headerlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .heroBox1,
+.heroBox2,
+.heroBox3 {
+  height: 100px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: 500;
+}
+}
